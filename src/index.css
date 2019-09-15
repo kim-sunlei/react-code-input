@@ -1,0 +1,27 @@
+.animation::after {
+    content:'';
+    display: block;
+    width:1px;
+    height:16px;
+    animation: blink_normal 1s infinite steps(1, start);
+}
+
+.codeInput:focus {
+    outline: none;
+}
+
+.codeInput {
+    z-index: -1000;
+}
+
+@keyframes blink_normal {
+    0% {
+        background-color: transparent;
+    }
+    50% {
+        background-color: #333333;
+    }
+    100% {
+        background-color: transparent;
+    }
+}

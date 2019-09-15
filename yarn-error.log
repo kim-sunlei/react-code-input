@@ -1,0 +1,59 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add ts-loader
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/xxx/react-vcode-input/node_modules/compression/node_modules'
+
+npm manifest: 
+  {
+    "name": "react-vcode-input",
+    "version": "1.0.3",
+    "description": "An input component for inputting verification codes for [react](https://github.com/facebook/react)",
+    "main": "dist/CodeInput.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kim-sunlei/react-code-input.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/kim-sunlei/react-code-input/issues"
+    },
+    "homepage": "https://github.com/kim-sunlei/react-code-input#readme",
+    "devDependencies": {
+      "babel-core": "^6.26.3",
+      "babel-loader": "^8.0.6",
+      "babel-plugin-transform-runtime": "^6.23.0",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-react": "^6.24.1",
+      "babel-preset-stage-0": "^6.24.1",
+      "html-webpack-plugin": "^3.2.0",
+      "react": "^16.9.0",
+      "react-dom": "^16.9.0",
+      "webpack": "^4.39.3",
+      "webpack-cli": "^3.3.8",
+      "webpack-dev-server": "^3.8.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
